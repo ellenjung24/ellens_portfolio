@@ -1,26 +1,21 @@
 import "./HeroSectionStyles.css";
-
-import React from 'react'
+import React from 'react';
 
 const HeroSection = () => {
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">
-            Hey, I'm Ellen!
+          <p className="hero--section--title">Hello, I'm <span className="hero--section--title--color">Ellen!</span></p>
+          <p className="hero--section--title">
+            I'm a&nbsp;
+            <span className="hero--section--title--color">Full-Stack Developer</span>{" "}
           </p>
-          <h1 className="hero--section--title">
-            <span className="hero--section--title--color">Full
-            Stack</span>{" "}
-            <br />
-            Developer
-          </h1>
         </div>
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/hero_img.png" alt="Hero Section" width={500} />
       </div>
     </section>
   )
