@@ -315,7 +315,21 @@ section {
 
 .project-title {
     margin: 1rem;
+    margin-top: 2rem;
     color: black;
+}
+
+.yvr-github-btn {
+    cursor: not-allowed;
+}
+
+.yvr-github-btn:hover {
+    cursor: not-allowed;
+}
+
+.project-explanation {
+    margin: 2rem 1rem;
+    font-size: 18px;
 }
 
 .project-btn {
